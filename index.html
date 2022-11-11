@@ -1,31 +1,30 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tasks</title>
+	<link rel="stylesheet" href="https://i.icomoon.io/public/temp/902126686e/UntitledProject/style.css">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		ul {
+  list-style-type: none;
+}
+	</style>
 </head>
 <body>
-    
-<div class="container">
-
-   <div class="todo_list">
-        <h1>to do list</h1>
-       <div class="create_new_todo">
-           <input type="text" class="message" placeholder="Описание">
-           <button class="add">Добавить</button>
-       </div>
-
-       <div class="wrapper">
-           <ul class="todo"></ul>
-       </div>
-
-   </div>
-
-</div>
-    <script src="script.js"></script>
+	<div class="container">
+		<div class="todo_list">
+				 <h1>my tasks</h1>
+				<div class="create_new_todo">
+	          <input text="text" id="input" class='input' placeholder="add your task"></input>
+	          <button id="btn" class="button">add</button>
+          	<ul id="res" list-style-type="none"></ul>
+						<div id ='list'></div>
+        </div>
+	  </div>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
