@@ -1,22 +1,35 @@
+html {
+  background-image: url(desert.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-	background-color: rgb(104, 169, 190);
     font-family: sans-serif;
     -webkit-box-sizing: content-box;
-    box-sizing: content-box; }
+    box-sizing: content-box;
+	 }
 
 .container {
 			margin: 0 auto;
-			padding-top: 50px; }
+			padding-top: 50px;
+}
 
 .todo_list {
 				max-width: 400px;
 				display: block;
 				margin: 0 auto 40px;
-				background-color: #1BA39C;
+				background-color: #81c21fd9;
 				padding: 30px;
 				border-radius: 10px;
 				-webkit-box-shadow: 0 2px 10px 0 #074b83;
-				box-shadow: 0 2px 10px 0 #074b83; }
+				box-shadow: 0 2px 10px 0 #074b83; 
+}
 h1 {
 					text-align: center;
 					margin-top: 0;
@@ -43,11 +56,11 @@ h1 {
     padding: 10px;
 								}
 								.input__link {
-									color: rgb(0, 0, 0);
+									color: rgb(28, 30, 79);
 									margin: 20px;
 									text-decoration: none;
 									position: relative;
-									font-size: 22px;
+									font-size: 20px;
 									text-transform: none
 							}
 							
@@ -66,7 +79,7 @@ h1 {
 							.input__link.active::after {
 									width: 104%;
 							}
-							#del {
-								border-radius: 5px;
-								background-color: rgb(240, 51, 51);
+							.icon-bin:before {
+								content: "\e9ac";
+								color: rgb(157, 34, 34);
 							}
