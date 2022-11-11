@@ -32,7 +32,7 @@ function addTask() {
 	}
 	res.innerHTML += `
   <li id="li">
-    <button id="del">x</button>
+    <span class="icon-bin"></span>
     <a class="input__link" href="#" id="inp">${value}
 	  </a>
   </li>
