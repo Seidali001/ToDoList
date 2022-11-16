@@ -1,4 +1,5 @@
 html {
+  html {
   background-image: url(desert.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -10,76 +11,87 @@ html {
 }
 
 body {
-    font-family: sans-serif;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-	 }
-
+  font-family: sans-serif;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
 .container {
-			margin: 0 auto;
-			padding-top: 50px;
+	margin: 0 auto;
+	padding-top: 50px;
 }
 
 .todo_list {
-				max-width: 400px;
-				display: block;
-				margin: 0 auto 40px;
-				background-color: #81c21fd9;
-				padding: 30px;
-				border-radius: 10px;
-				-webkit-box-shadow: 0 2px 10px 0 #074b83;
-				box-shadow: 0 2px 10px 0 #074b83; 
+	max-width: 400px;
+	display: block;
+	margin: 0 auto 40px;
+	background-color: #22f701a4;
+	padding: 30px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 2px 10px 0 #074b83;
+	box-shadow: 0 2px 10px 0 #074b83; 
 }
 h1 {
-					text-align: center;
-					margin-top: 0;
-					margin-bottom: 20px;
-					color: #fff;
-					font-size: 30px; }
-					input[type=text] {
-						width: 376px;
-						padding: 10px; }
-					
-					.button {
-						margin-top: 10px;
-						width: 400px;
-						padding: 10px;
-						cursor: pointer; }
+	font-family: 'Anton', sans-serif;
+  font-family: 'Dancing Script', cursive;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: rgb(255, 255, 255);
+	font-size: 50px; 
+}				
+input[type=text] {
+	width: 376px;
+	padding: 10px; 
+}
+.button {
+	margin-top: 10px;
+	width: 400px;
+	padding: 10px;
+	cursor: pointer;					
+	border-radius: 10px; 
+}
 .create_new_todo {
-							text-align:left; }
-							input[type=text] {
-								width: 376px;
-								padding: 10px; }
-								#input {
-									margin-top: 10px;
-    width: 376px;
-    padding: 10px;
-								}
-								.input__link {
-									color: rgb(28, 30, 79);
-									margin: 20px;
-									text-decoration: none;
-									position: relative;
-									font-size: 20px;
-									text-transform: none
-							}
+	text-align:left; 
+}
+input[type=text] {
+	width: 376px;
+	padding: 10px;
+}
+#input {
+	background-color: rgba(255, 255, 255, 0.889);
+	margin-top: 10px;
+  width: 376px;
+  padding: 10px;				
+}
+.input__link {
+	font-family: 'Dancing Script', cursive;
+	color: rgb(0, 0, 0);
+	margin: 20px;
+	text-decoration: none;
+	position: relative;
+	font-size: 30px;
+	text-transform: none
+}
 							
-							.input__link::after {
-									content: "";
-									position:absolute;
-									height: 2px;
-									background: rgb(255, 0, 0);
-									width: -2;
-									top: 50%;
-									left: -2%;
-									transform: translateY(-50%);
-									transition: width 0.2s linear;
-							}
-							
-							.input__link.active::after {
-									width: 104%;
-							}
-							.icon-bin:before {
-								content: "\e9ac";
-								color: rgb(157, 34, 34);
-							}
+.input__link::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background: rgb(255, 0, 0);
+	top: 60%;
+	left: 25px;
+	transform: translateY(-50%);
+	transition: width 0.2s linear;
+}						
+.input__link.active::after {
+	width: 80%;
+}
+.icon-bin:before {
+  content: "\e9ac";
+	cursor: pointer;
+	color:darkred
+}
+
+::before {
+	font-size: 20px;
+}
